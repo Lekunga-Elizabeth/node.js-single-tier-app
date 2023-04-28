@@ -8,7 +8,7 @@ Resources:
       UserData:
         Fn::Base64: !Sub |
           #!/bin/bash
-          echo "Hello, Developpers is your engineer Lekunga Elizabeth"
+          echo "Hello, Developpers is your engineer Lekunga Elizabeth!"
       SecurityGroupIds:
         - sg-01a508bc795920855
 
@@ -25,3 +25,4 @@ Resources:
       StorageType: gp2
       VPCSecurityGroups:
         - sg-01a508bc795920855
+
