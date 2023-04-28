@@ -24,7 +24,7 @@ jobs:
             --stack-name my-stack3 \
             --capabilities CAPABILITY_NAMED_IAM \
             --parameter-overrides \
-              Ec2-instance \
+              Ec2InstanceType=t2.micro \
             --region us-east-1
 
       
